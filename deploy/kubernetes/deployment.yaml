@@ -12,8 +12,8 @@ spec:
       labels:
         app: prueba-js
     spec:
-      imagePullSecrets: 
-      - name: github-regcred  
+      # imagePullSecrets: 
+      # - name: github-regcred  
       containers:
       - name: prueba-js
         image: ghcr.io/caixa-bank/prueba-js:v1.0.0

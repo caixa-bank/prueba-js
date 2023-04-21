@@ -4,6 +4,7 @@ WORKDIR /usr/src/app
 
 ARG NODE_ENV
 ENV NODE_ENV $NODE_ENV
+ENV CAIXA_NAME nombre_no_definido
 
 COPY package*.json /usr/src/app/
 RUN npm install

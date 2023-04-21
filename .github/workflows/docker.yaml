@@ -9,6 +9,8 @@ on:
   push:
     branches: [ "master" ]
     tags: [ 'v*.*.*' ]
+    paths-ignore:
+      - 'deploy/**'
 
 env:
   # Use docker.io for Docker Hub if empty

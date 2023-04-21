@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: prueba-js
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: prueba-js
+  template:
+    metadata:
+      labels:
+        app: prueba-js
+    spec:
+      containers:
+      - name: prueba-js
+        image: ghcr.io/caixa-bank/prueba-js:v1.0.0
+        ports:
+        - containerPort: 5000

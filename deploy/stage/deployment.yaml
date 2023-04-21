@@ -19,3 +19,7 @@ spec:
         image: ghcr.io/caixa-bank/prueba-js:master
         ports:
         - containerPort: 5000
+        envFrom:
+          - configMapRef:
+            name: prueba-js
+              

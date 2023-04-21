@@ -4,7 +4,7 @@ metadata:
   name: prueba-js
 spec:
   rules:
-  - host: 146.190.15.212
+  - host: caixa-bank.es
     http:
       paths:
       - path: /

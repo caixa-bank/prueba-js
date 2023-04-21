@@ -16,6 +16,6 @@ spec:
       # - name: github-regcred  
       containers:
       - name: prueba-js
-        image: ghcr.io/caixa-bank/prueba-js:v1.0.0
+        image: ghcr.io/caixa-bank/prueba-js:v1.0.1
         ports:
         - containerPort: 5000
